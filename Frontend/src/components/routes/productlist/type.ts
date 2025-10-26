@@ -1,0 +1,33 @@
+export interface FormDataType {
+    productCode: string;
+    modelNo: string;
+    productName: string;
+    sizes: string;
+    brandName: { id: string; brandName: string };
+    itemCategory: { id: string; categoryName: string };
+    itemType: { id: string; typeName: string };
+    starRating: { id: string; starRating: string };
+    refGasType: { id: string; gasTypeName: string };
+    tonCapacity: { id: string; tonCapacityName: string };
+    isGSTApllicable: boolean;
+    salesUnitMeasurement: { id: string; uom: string };
+    purchaseUnitMeasurement: { id: string; uom: string };
+    baseUnitMeasurement: { id: string; uom: string };
+    itemStatus: { id: string; statusName: string };
+    reoderLevel: string;
+    minQuantity: number;
+    maxQuantity: number;
+    purchasePrice: number;
+    salesPrice: number;
+    hsnCode: string;
+    yearOfIntroduction: string;
+    nameInvoice: string;
+    isStockable: boolean;
+    isKit: boolean;
+    isActive: boolean;
+    mrp: number;
+    sgst: string;
+    igst: string;
+    cgst: string;
+    productType: string;
+  }
